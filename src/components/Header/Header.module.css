@@ -1,0 +1,14 @@
+.headCont{
+    min-width: 400px;
+    width: 100vw;
+    height: 80px;
+    background-color: darkgray;
+    text-align: center;
+    align-content: center;
+}
+
+.inputField{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
