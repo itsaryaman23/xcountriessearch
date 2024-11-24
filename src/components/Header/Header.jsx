@@ -11,6 +11,7 @@ const Header = ({ setSearch }) => {
     <div className={styles.headCont}>
       <input
         className={styles.inputField}
+        type="text"
         placeholder="Search for countries..."
         onChange={performSearch}
       />

@@ -5,7 +5,7 @@ const CountryCard = ({title, flag}) => {
     return (
     <div className={styles.countryCard}>
         <img src={flag} width="50px" height="50px"/>
-        <h5 className={styles.flagTitle}>{title}</h5>
+        <p className={styles.flagTitle}>{title}</p>
 
     </div>)
 }
